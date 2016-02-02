@@ -1,0 +1,33 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+#land {
+  background: url("../images/land.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #FFF;
+  border: 1px solid transparent; }
+  #land header {
+    margin-top: 3rem; }
+    #land header i {
+      font-size: 4rem;
+      line-height: 4rem; }
+    #land header span {
+      font-size: 2rem;
+      line-height: 4rem;
+      position: relative;
+      top: -0.5rem;
+      left: 1rem;
+      font-style: italic; }
+  #land .welcome-message {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%); }
+    #land .welcome-message h1 {
+      font-size: 4vw;
+      font-weight: 300; }
+    #land .welcome-message p {
+      font-size: 1vw; }
+
+/*# sourceMappingURL=app.css.map */
