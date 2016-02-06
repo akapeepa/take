@@ -1,47 +1,8 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-}
-
-
-#land{
-  background: url("../images/land.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-position: 50% 50%;
-  color: #FFF;
-  border: 1px solid transparent;
-
-
-  header{
-    margin-top: 3rem;
-
-    i{
-      font-size:4rem;
-      line-height:4rem;
-    }
-
-    span{
-      font-size: 2rem;
-      line-height: 4rem;
-      position: relative;
-      top: -0.5rem;
-      left: 1rem;
-      font-style: italic;
-    }
-  }
-
-  .welcome-message{
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
-
-    h1{
-      font-size: 4vw;
-      font-weight: 300;
-    }
-
-    p{
-      font-size: 1vw;
-    }
-  }
-}
+@import "plans";
+@import "reasons";
+@import "common";
+@import "land";
+@import "intro";
+@import "features";
+@import "details";
+@import "explore";

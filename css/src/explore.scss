@@ -1,0 +1,42 @@
+#explore{
+  background: url("../images/air.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  color:  #fff;
+
+
+  .explore-container{
+    position: relative;
+    height: 100vh;
+
+
+    .explore-content{
+      position: absolute;
+      bottom: 6em;
+
+
+      h2{
+        font-size: 4vw;
+      }
+
+      p{
+        margin: 1em 0;
+      }
+
+
+      a{
+        color: #fff;
+
+        i{
+          margin-left: 1em;
+        }
+      }
+    }
+  }
+
+
+
+
+
+}

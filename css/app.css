@@ -1,12 +1,48 @@
+#plans {
+  background-color: #f6f7fb;
+  padding: 4em 0 3em;
+  color: #717171; }
+  #plans .label {
+    text-transform: uppercase; }
+  #plans h3 {
+    font-size: 2.5em; }
+  #plans p {
+    padding: 1em 0; }
+  #plans a.btn {
+    background-color: #486872;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700; }
+  #plans #solo-plan .label {
+    background-color: #717171; }
+  #plans #team-plan .label {
+    background-color: #19A4DD; }
+
+#reasons {
+  background-color: #82ca9c;
+  color: #fff;
+  padding: 4em 0 3em; }
+  #reasons h2 {
+    font-size: 5rem;
+    margin-bottom: 1em; }
+  #reasons h4 {
+    font-weight: 700;
+    font-size: 1em; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
 #land {
-  background: url("../images/land.jpg");
+  background: url("../images/aa.jpg");
   height: 100vh;
   background-size: cover;
   background-position: 50% 50%;
-  color: #FFF;
+  color: #fff;
   border: 1px solid transparent; }
   #land header {
     margin-top: 3rem; }
@@ -22,12 +58,67 @@ body {
       font-style: italic; }
   #land .welcome-message {
     position: absolute;
-    top: 60%;
+    top: 40%;
     transform: translateY(-50%); }
     #land .welcome-message h1 {
       font-size: 4vw;
       font-weight: 300; }
     #land .welcome-message p {
       font-size: 1vw; }
+
+#intro {
+  padding: 4em 0 3em 0;
+  color: #717171; }
+  #intro p {
+    padding: 1em 0; }
+
+#features {
+  color: #fff; }
+  #features #design-quality {
+    background-color: #f5999e; }
+  #features #build-to-last {
+    background-color: #625f7e; }
+  #features #our-clients {
+    background: url("../images/features/plane.jpg");
+    background-size: cover; }
+  #features #signup-see {
+    background: url("../images/features/0.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 188px; }
+  #features #perfect-pictures {
+    background-color: #7ec497; }
+  #features a {
+    color: #fff;
+    margin: 1em 0 2em;
+    display: inline-block; }
+  #features i {
+    margin-left: 1em; }
+
+#details {
+  padding: 4em 0 3em;
+  color: #717171; }
+  #details h2 {
+    margin-bottom: 1em; }
+
+#explore {
+  background: url("../images/air.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #fff; }
+  #explore .explore-container {
+    position: relative;
+    height: 100vh; }
+    #explore .explore-container .explore-content {
+      position: absolute;
+      bottom: 6em; }
+      #explore .explore-container .explore-content h2 {
+        font-size: 4vw; }
+      #explore .explore-container .explore-content p {
+        margin: 1em 0; }
+      #explore .explore-container .explore-content a {
+        color: #fff; }
+        #explore .explore-container .explore-content a i {
+          margin-left: 1em; }
 
 /*# sourceMappingURL=app.css.map */
